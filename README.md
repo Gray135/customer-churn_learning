@@ -6,7 +6,7 @@ This Excel-based churn analysis simulates the work of a Customer Success or Oper
 
 ## Repository Contents
 
-- `Customer Churn Project.xlsx` – Final workbook with data, formulas, and segmentation  
+- `/Data File` – Contains final workbook with data, formulas, and segmentation Customer Churn Project.xlsx` 
 - `/images/` – Screenshots of enriched dataset, churn risk logic, and lookup tool  
 - `README.md` – Overview of project purpose, logic, and Excel skills used
 
