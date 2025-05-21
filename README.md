@@ -6,25 +6,25 @@ This Excel-based churn analysis simulates the work of a Customer Success or Oper
 
 ## Repository Contents
 
-- `/Data File` – Contains final workbook with data, formulas, and segmentation Customer Churn Project.xlsx` 
+- `/Data File` – Final workbook (`Customer Churn Project.xlsx`) with data, formulas, and segmentation  
 - `/images/` – Screenshots of enriched dataset, churn risk logic, and lookup tool  
-- `README.md` – Overview of project purpose, logic, and Excel skills used
+- `README.md` – Project overview, segmentation logic, and Excel skills used
 
 ---
 
 ## What This Workbook Shows
 
-- Validated Total Charges using `ISNUMBER()` and `IFERROR()`
-- Segmented customers by:
-  - Tenure Group (New, 1–2 Years, 2–4 Years, 4+ Years)
-  - Service Level (Low Service vs. Multi-Service)
-  - Risk Flag (High Risk if new & low service)
-- Added secondary risk factors:
-  - Monthly Charge Tier (High/Medium/Low)
-  - Contract Type Risk (e.g., Month-to-Month = Higher Risk)
-- Combined all factors into a Final Churn Profile
-- Created a lookup tool tab with `XLOOKUP()` for fast customer insights
-- Uses TEXT(), IF(), AND(), and OR() to format and flag conditions
+- Validates total charges using `ISNUMBER()` and `IFERROR()`  
+- Segments customers by:
+  - **Tenure Group** (New, 1–2 Years, 2–4 Years, 4+ Years)  
+  - **Service Level** (Low Service vs. Multi-Service)  
+  - **Risk Flag** (High Risk if new & low service)  
+- Adds secondary risk factors:
+  - **Monthly Charge Tier** (High / Medium / Low)  
+  - **Contract Type Risk** (e.g., Month-to-Month = Higher Risk)  
+- Combines all factors into a **Final Churn Profile**  
+- Includes a searchable lookup tool using `XLOOKUP()`  
+- Uses `TEXT()`, `IF()`, `AND()`, and `OR()` for formatting and flag logic
 
 ---
 
@@ -32,56 +32,54 @@ This Excel-based churn analysis simulates the work of a Customer Success or Oper
 
 This workbook mirrors real Excel-based analysis used by Customer Success and Operations teams:
 
-- **Retention Targeting**: Flags new, low-engagement customers with high churn risk
-- **CSM Enablement**: Provides a fast, filterable lookup tool for customer profiles
-- **Decision Support**: Combines logic into a churn profile to guide renewal strategy
+- **Retention Targeting** – Flags new, low-engagement customers with high churn risk  
+- **CSM Enablement** – Provides a fast, filterable lookup tool for customer profiles  
+- **Decision Support** – Combines multiple logic points into a churn profile to guide proactive renewal strategy  
 
-> This type of work is core to how teams using Gainsight or Salesforce prioritize outreach — especially when predictive models aren’t available.
+> This mirrors the type of segmentation often used by CS teams in tools like Gainsight or Salesforce—especially when predictive models aren’t available.
 
 ---
 
 ## Formula Logic Documentation
 
-- `ISNUMBER()` – Validates numeric values
-- `IFERROR()` – Prevents formula errors
-- `COUNTIF()` – Counts engaged services
-- `IF()` , `AND()` , `OR()  – Used for Churn Risk Rules
-- `XLOOKUP()` – Powers the customer lookup tool
+- `ISNUMBER()` – Validates numeric values  
+- `IFERROR()` – Prevents formula errors  
+- `COUNTIF()` – Counts engaged services  
+- `IF()`, `AND()`, `OR()` – Used for churn risk logic  
+- `XLOOKUP()` – Powers the customer lookup tool  
 
->Formula logic and table views are included as screenshots in /images.
+> Formula logic and churn segmentation views are included as screenshots in `/images/`.
 
 ---
 
 ## File Structure
 
-| Sheet Name                      | Description                                         |
-|--------------------------------|-----------------------------------------------------|
-| `Customer Churn Project Table` | Main dataset with formulas and risk segmentation  |
-| `Formulas used in Project Table` | Step-by-step logic explanations (with examples)                |
-| `Customer Churn Look Up Tool`  | ID-based search tool using XLOOKUP()           |
-| `Formulas Used in Look Up Tool`| Supporting logic for the lookup tab                |
+| Sheet Name                      | Description                                                |
+|----------------------------------|------------------------------------------------------------|
+| `Customer Churn Project Table`   | Main dataset with derived columns and churn segmentation   |
+| `Formulas used in Project Table` | Step-by-step formula logic explanations                    |
+| `Customer Churn Look Up Tool`    | ID-based search tool using `XLOOKUP()`                     |
+| `Formulas Used in Look Up Tool`  | Supporting logic for the lookup tab                        |
 
 ---
+
 ## Table Preview
 
-**Final Churn Profile Table**
-
+**Final Churn Profile Table**  
 ![Final Churn Table 3](images/Final_Churn_Table_3.png)
 
-
-**Lookup Tool Example**
-
+**Lookup Tool Example**  
 ![Lookup Tool](images/Lookup_Tool.png)
 
 ---
 
 ## Why This Matters
 
-This type of analysis reflects the real work Customer Success Ops Analysts do to:
+This type of analysis reflects the day-to-day work of Customer Success Operations Analysts:
 
-- Identify at-risk customers using business rules
-- Help Customer Success Managers act quickly with filters and flags
-- Reduce churn with proactive segmentation and insights
+- Identifying at-risk customers using defined business logic  
+- Helping Customer Success Managers act quickly using filters and flag systems  
+- Reducing churn with structured, proactive segmentation and insights  
 
 ---
 
