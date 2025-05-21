@@ -24,8 +24,7 @@ This Excel-based churn analysis simulates the work of a Customer Success or Oper
   - Contract Type Risk (e.g., Month-to-Month = Higher Risk)
 - Combined all factors into a Final Churn Profile
 - Created a lookup tool tab with `XLOOKUP()` for fast customer insights
-- Applied `TEXT()` to format date logic (optional)
-- Created conditional labels with `IF()`, `AND()`, `OR()`
+- Uses TEXT(), IF(), AND(), and OR() to format and flag conditions
 
 ---
 
@@ -41,15 +40,15 @@ This workbook mirrors real Excel-based analysis used by Customer Success and Ope
 
 ---
 
-## Key Excel Functions Used
+## Formula Logic Documentation
 
 - `ISNUMBER()` – Validates numeric values
-- `IFERROR()` – Prevents formula breakage
-- `COUNTIF()` – Counts subscribed services
-- `IF()` + `AND()` – Builds rule-based flags (e.g., High Risk)
-- `OR()` – Adds alternate logic conditions
+- `IFERROR()` – Prevents formula errors
+- `COUNTIF()` – Counts engaged services
+- `IF()` , `AND()` , `OR()  – Used for Churn Risk Rules
 - `XLOOKUP()` – Powers the customer lookup tool
-- `TEXT()`, `LEN()`, `TRIM()` – Optional text cleaning and formatting
+
+>Formula logic and table views are included as screenshots in /images.
 
 ---
 
@@ -57,19 +56,15 @@ This workbook mirrors real Excel-based analysis used by Customer Success and Ope
 
 | Sheet Name                      | Description                                         |
 |--------------------------------|-----------------------------------------------------|
-| `Customer Churn Project Table` | Main dataset with derived columns and risk logic   |
-| `Formulas used in Project Table` | English breakdown of logic used                    |
-| `Customer Churn Look Up Tool`  | Searchable tab powered by `XLOOKUP()`              |
+| `Customer Churn Project Table` | Main dataset with formulas and risk segmentation  |
+| `Formulas used in Project Table` | Step-by-step logic explanations (with examples)                |
+| `Customer Churn Look Up Tool`  | ID-based search tool using XLOOKUP()           |
 | `Formulas Used in Look Up Tool`| Supporting logic for the lookup tab                |
 
 ---
-## Table Views
+## Table Preview
 
 **Final Churn Profile Table**
-
-![Final Churn Table 1](images/Final_Churn_Table_1.png)
-
-![Final Churn Table 2](images/Final_Churn_Table_2.png)
 
 ![Final Churn Table 3](images/Final_Churn_Table_3.png)
 
@@ -77,26 +72,6 @@ This workbook mirrors real Excel-based analysis used by Customer Success and Ope
 **Lookup Tool Example**
 
 ![Lookup Tool](images/Lookup_Tool.png)
-
----
-## Table Formulas
-
-**Churn Table Formulas**
-
-![Churn Table Formula 1](images/Churn_Table_Formula_1.png)
-
-
-![Churn Table Formula 2](images/Churn_Table_Formula_2.png)
-
-
-![Churn Table Formula 3](images/Churn_Table_Formula_3.png)
-
-
-![Churn Table Formula 4](images/Churn_Table_Formula_4.png)
-
-**Lookup Tool Formulas**
-
-![Look Up Formula](images/Look_Up_Formula.png)
 
 ---
 
