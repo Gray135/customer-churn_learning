@@ -12,18 +12,6 @@ This Excel-based churn analysis simulates the work of a Customer Success or Oper
 
 ---
 
-## Sample Views
-
-**Final Churn Profile Table**
-
-![Final Churn Table](images/final_churn_table.png)
-
-**Lookup Tool Example**
-
-![Lookup Tool](images/lookup_tool.png)
-
----
-
 ## What This Workbook Shows
 
 - Validated Total Charges using `ISNUMBER()` and `IFERROR()`
@@ -73,6 +61,42 @@ This workbook mirrors real Excel-based analysis used by Customer Success and Ope
 | `Formulas used in Project Table` | English breakdown of logic used                    |
 | `Customer Churn Look Up Tool`  | Searchable tab powered by `XLOOKUP()`              |
 | `Formulas Used in Look Up Tool`| Supporting logic for the lookup tab                |
+
+---
+## Table Views
+
+**Final Churn Profile Table**
+
+![Final Churn Table 1](images/Final_Churn_Table_1.png)
+
+![Final Churn Table 2](images/Final_Churn_Table_2.png)
+
+![Final Churn Table 3](images/Final_Churn_Table_3.png)
+
+
+**Lookup Tool Example**
+
+![Lookup Tool](images/Lookup_Tool.png)
+
+---
+## Table Formulas
+
+**Churn Table Formulas**
+
+![Churn Table Formula 1](images/Churn_Table_Formula_1.png)
+
+
+![Churn Table Formula 2](images/Churn_Table_Formula_2.png)
+
+
+![Churn Table Formula 3](images/Churn_Table_Formula_3.png)
+
+
+![Churn Table Formula 4](images/Churn_Table_Formula_4.png)
+
+**Lookup Tool Formulas**
+
+![Look Up Formula](images/Look_Up_Formula.png)
 
 ---
 
