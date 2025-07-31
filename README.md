@@ -3,12 +3,25 @@
 This Excel-based churn analysis simulates the work of a Customer Success or Operations Analyst. It uses logic-driven formulas to flag at-risk customers based on tenure, service engagement, and total charges. It also includes a customer ID lookup tool for fast insights.
 
 ---
+## Business Objective
 
-## Repository Contents
+This project simulates a scenario where a Customer Success Analyst is asked:
 
-- `/Data File` – Final workbook (`Customer Churn Project.xlsx`) with data, formulas, and segmentation  
-- `/images/` – Screenshots of enriched dataset, churn risk logic, and lookup tool  
-- `README.md` – Project overview, segmentation logic, and Excel skills used
+> “Can you help us identify which customers are most likely to churn based on what we already know?”
+
+The Excel workbook answers this by using logical segmentation to flag high-risk customers and provide fast lookup access for Success Managers.
+
+---
+
+## Workbook Preview
+
+1. **Final Churn Profile Table**  
+![Final Churn Table](images/Final_Churn_Table_3.png)  
+> Segments customers by tenure, service level, and other risk flags.
+
+2. **Lookup Tool**  
+![Lookup Tool](images/Lookup_Tool.png)  
+> Lets Customer Success Managers search by ID and review churn factors.
 
 ---
 
@@ -28,6 +41,15 @@ This Excel-based churn analysis simulates the work of a Customer Success or Oper
 
 ---
 
+## Why This Matters
+
+This type of analysis reflects the day-to-day work of Customer Success Operations Analysts:
+
+- Identifying at-risk customers using defined business logic  
+- Helping Customer Success Managers act quickly using filters and flag systems  
+- Reducing churn with structured, proactive segmentation and insights
+
+---
 ## Insight & Business Value
 
 This workbook mirrors real Excel-based analysis used by Customer Success and Operations teams:
@@ -61,25 +83,6 @@ This workbook mirrors real Excel-based analysis used by Customer Success and Ope
 | `Customer Churn Look Up Tool`    | ID-based search tool using `XLOOKUP()`                     |
 | `Formulas Used in Look Up Tool`  | Supporting logic for the lookup tab                        |
 
----
-
-## Table Preview
-
-**Final Churn Profile Table**  
-![Final Churn Table 3](images/Final_Churn_Table_3.png)
-
-**Lookup Tool Example**  
-![Lookup Tool](images/Lookup_Tool.png)
-
----
-
-## Why This Matters
-
-This type of analysis reflects the day-to-day work of Customer Success Operations Analysts:
-
-- Identifying at-risk customers using defined business logic  
-- Helping Customer Success Managers act quickly using filters and flag systems  
-- Reducing churn with structured, proactive segmentation and insights  
 
 ---
 
@@ -88,3 +91,5 @@ This type of analysis reflects the day-to-day work of Customer Success Operation
 **Aaron Zeug**  
 Aspiring Data Analyst with CX + Ops background  
 [GitHub Profile](https://github.com/Gray135) • [LinkedIn](https://www.linkedin.com/in/aaronzeug)
+
+Open to CX Ops, Data Analyst, or Insights roles where Excel-based decision tools are still part of the workflow.
