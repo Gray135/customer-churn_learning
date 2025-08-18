@@ -1,6 +1,6 @@
 # Customer Churn Analysis – Excel Project
 
-This Excel-based learning project simulates the work of a Customer Success or Operations Analyst may do when looking into customer churn. It uses logic-driven formulas to flag at-risk customers based on tenure, service engagement, and total charges. It also includes a customer ID lookup tool for fast insights.
+This Excel-based project simulates the work of a Customer Success or Operations Analyst may do when looking into customer churn. It uses logic-driven formulas to flag at-risk customers based on tenure, service engagement, and total charges. It also includes a customer ID lookup tool for fast insights.
 
 ---
 ## Business Objective
